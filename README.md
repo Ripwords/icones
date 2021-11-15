@@ -56,7 +56,6 @@ Icônes
 
 ### TODOs
 
-- Electron client (Coming!)
 - Full-offline mode - pack all the icons
 
 ## License
