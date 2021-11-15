@@ -2,9 +2,6 @@
   "name": "icones",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "electron"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antfu/icones.git"
@@ -19,14 +16,13 @@
     "postinstall": "esno scripts/prepare.ts",
     "prebuild": "esno scripts/prebuild.ts",
     "postbuild": "esno scripts/postbuild.ts",
-    "dev": "vite --port 3333 --open",
-    "dev:electron": "npm -C ./electron run dev",
-    "build": "cross-env NODE_ENV=production vite build",
-    "build:electron": "cross-env NODE_ENV=production npm -C ./electron run build"
+    "dev": "vite --port 3333",
+    "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
     "@antfu/utils": "^0.3.0",
     "@iconify/iconify": "^2.0.4",
+    "@tauri-apps/api": "^1.0.0-beta.8",
     "@vueuse/core": "^6.3.3",
     "copy-text-to-clipboard": "afzalsayed96/copy-text-to-clipboard",
     "dexie": "^3.0.3",
@@ -41,6 +37,7 @@
     "@antfu/eslint-config": "^0.9.0",
     "@iconify/json": "^1.1.401",
     "@purge-icons/generated": "^0.7.0",
+    "@tauri-apps/cli": "^1.0.0-beta.10",
     "@types/file-saver": "^2.0.3",
     "@types/fs-extra": "^9.0.12",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
