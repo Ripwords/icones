@@ -1,7 +1,7 @@
 {
   "package": {
-    "productName": "icones",
-    "version": "0.1.0"
+    "productName": "Icônes",
+    "version": "1.0.1"
   },
   "build": {
     "distDir": "../dist",
@@ -46,14 +46,17 @@
       }
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": [
+        "https://gist.github.com/Ripwords/f7bf93a3b725cf3dca607a5298d5c461/raw"
+      ]
     },
     "allowlist": {
       "all": true
     },
     "windows": [
       {
-        "title": "icones",
+        "title": "Icônes",
         "width": 800,
         "height": 600,
         "resizable": true,
