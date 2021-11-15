@@ -9,7 +9,11 @@ Icônes
 </p>
 
 <p align="center">
-<sub><em>Electron is coming...</em></sub>
+  <sub>
+    <em>
+      Tauri Desktop version, forked from <a href="https://github.com/antfu/icones">Icones</a>
+    </em>
+ </sub>
 </p>
 
 ![](./screenshots/1.png)
